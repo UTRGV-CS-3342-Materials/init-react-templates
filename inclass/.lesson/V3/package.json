@@ -1,0 +1,17 @@
+{
+  "name": "shopping-01-render-to-string",
+  "type": "module",
+  "scripts": {
+    "build": "esbuild server.jsx --bundle --jsx=automatic --platform=node --format=esm --packages=external --outfile=build/server.js",
+    "start": "npm run build && node build/server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "express": "^5.1.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}

@@ -1,0 +1,68 @@
+<html>
+
+<head>
+<title>Incredibly Simple Shopping</title>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="main.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="pb-2 mt-4 mb-2">
+	<h1>Buy More!</h1>
+</div>
+
+<div class="row col-8">
+<table class="table">
+
+<thead>
+	<tr>
+		<th></th>
+		<th>Name</th>
+		<th class="price">Price</th>
+	</tr>
+</thead>
+
+<!-- 
+	generate these table rows from the database
+-->
+<tr>
+	<td rowspan="2">
+		<img class="thumb" src="https://cdn.shopify.com/s/files/1/0471/8329/8726/articles/shutterstock_1985641697_1500x.jpg?v=1627418389">
+	</td>
+	<td><span class="name"><a href="/subdir/item_view.html">Best Friend</a></span></td>
+	<td class="price">$12.34</td>
+</tr>
+<tr><td colspan="2">Occasionally rabid, but always there for you.</td></tr>
+
+<tr>
+	<td rowspan="2">
+		<img class="thumb" src="http://smartshopbuy.com/images/HomeDecorations/taylor-big-chair.jpg">
+	</td>
+	<td><span class="name"><a href="item_view.html">Big Chair</a></span></td>
+	<td class="price">$56.78</td>
+</tr>
+<tr><td colspan="2">A big, comfy chair. Great for sitting, also laying down if you are very small.</td></tr>
+
+<tr>
+	<td rowspan="2">
+		<img class="thumb" src="http://upload.wikimedia.org/wikipedia/commons/e/e1/Gaoliang_Bridge.JPG">
+	</td>
+	<td><span class="name"><a href="item_view.html">Cool Bridge</a></span></td>
+	<td class="price">$20,000.00</td>
+</tr>
+<tr><td colspan="2">Slightly used, in great condition. Price does not include shipping.</td></tr>
+
+<!-- end generating table rows -->
+
+</table>
+
+</div>
+
+</body>
+
+</html>
